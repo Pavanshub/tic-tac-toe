@@ -9,7 +9,7 @@ body {
 
 }
 
-h1{
+h1 {
     margin: 10px;
     padding-top: 30px;
 }
@@ -44,36 +44,38 @@ h1{
 
 }
 
-#reset{
+#reset {
     height: 6vh;
     width: 58vh;
     border-radius: 1rem;
     border: none;
     background-color: lightblue;
 }
-#new{
-    height: 50px;
-    width: 100%;
-    margin: 20px;
-    margin-right: 200px;
-    border-radius: 10px;
-    border: 2px solid black;
-    background-color: lightblue;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.msg-container{
+.new {
+
     height: 30vh;
 }
 
-.hide{
+#new {
+    text-align: center;
+    background-color: red;
+    /* border: 2px solid black; */
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.msg-container {
+    height: 30vh;
+}
+
+.hide {
     display: none;
 }
 
-.msg{
+.msg {
     text-align: center;
     background-color: green;
     border: 2px solid black;
